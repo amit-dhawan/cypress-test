@@ -1,0 +1,18 @@
+{
+  "name": "Using fixtures to represent data",
+  "email": "hello@cypress.io",
+  "body": "Fixtures are a great way to mock data for responses to routes",
+  "minValueInvalidValueErrMsg": "minLevel must be a `number` type, but the final value was:",
+  "emptyValueErrMsg": "Empty values are not allowed",
+  "fromOutOfRangeValueErrMsg": "FROM level outside valid range",
+  "maxValueInvalidValueErrMssg": "maxLevel must be a `number` type, but the final value was:",
+  "toOutOfRangeValueErrMsg": "TO level outside valid range",
+  "dropDownErrMssg": "Please select the asset",
+  "dropDownvalues": [
+    "Asset1",
+    "Asset2",
+    "Asset3"
+  ],
+  "selectValue": "Asset3",
+  "successSubmissionMsg": "Successful Submission"
+}
