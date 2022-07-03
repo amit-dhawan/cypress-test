@@ -6,7 +6,6 @@ describe('Test Suite for field validations', function () {
 
 
     this.beforeEach(function () {
-
         cy.fixture('example').then((data) => {
             this.data = data;
         })
@@ -92,7 +91,7 @@ describe('Test Suite for field validations', function () {
             expect($el.text()).to.equal(this.data.dropDownvalues[index]);
         })
 
-        // select option1
+        // select option dropdown
         mainPage.getOptionDropDown(this.data.selectValue).click()
         mainPage.getOverrideBtn().click();
         mainPage.getSuccessMssgHeader().should('have.text', this.data.successSubmissionMsg);

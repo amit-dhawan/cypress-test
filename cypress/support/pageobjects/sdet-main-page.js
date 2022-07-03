@@ -15,7 +15,6 @@ class SDETMainPage {
     return cy.contains('ADD OVERRIDE');
   }
 
-
   getErrorMsgFromField() {
     return cy.get(':nth-child(1) > .MuiGrid-grid-xs-12 > .makeStyles-formInputs-22 > .MuiGrid-container > .MuiGrid-grid-sm-8 > .makeStyles-error-24');
   }
@@ -57,6 +56,10 @@ class SDETMainPage {
 
   getEndTime() {
     return cy.get('#mui-6');
+  }
+
+  getActiveTab(){
+    return cy.get('#simple-tab-1');
   }
 
 
