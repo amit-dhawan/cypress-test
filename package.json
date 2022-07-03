@@ -4,7 +4,7 @@
   "description": "This is a cypress based framework to test SDET assignment",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cy:run": "cypress run"
   },
   "repository": {
     "type": "git",
