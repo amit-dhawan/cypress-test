@@ -10,4 +10,4 @@ Cypress Tests assignment
 npm install 
 
 - Run  bellow command to run all the test  in  spec file = activeTab-field-validations-tests.js
-npm run cy:run -- --spec ".\cypress\e2e\tests\activeTab-field-validations-tests.js"
+- npm run cy:run -- --spec ".\cypress\e2e\tests\activeTab-field-validations-tests.js"
