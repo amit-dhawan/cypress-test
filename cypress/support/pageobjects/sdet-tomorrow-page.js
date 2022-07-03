@@ -19,6 +19,17 @@ class TomorrowTab {
         return cy.get('#offer_undo');
     }
 
+    getBidField() {
+        return cy.get('#bid');
+    }
+
+    getBidPrice() {
+        return cy.get('#bid_price');
+    }
+
+    getBidUndo() {
+        return cy.get('#bid_undo');
+    }
 
 
 }

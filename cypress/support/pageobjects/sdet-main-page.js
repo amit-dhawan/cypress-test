@@ -4,7 +4,7 @@ class SDETMainPage {
   // define page webElements
 
   getActiveTab() {
-    return cy.get('#simple-tab-0');
+    return cy.contains('Active');
   }
 
   getFromField() {
@@ -58,11 +58,18 @@ class SDETMainPage {
     return cy.get('#mui-6');
   }
 
-  getActiveTab(){
+  getActiveTab() {
     return cy.get('#simple-tab-1');
   }
 
 
+  getAddedAsset1() {
+    return cy.get('th.MuiTableCell-body');
+  }
+
+  getAddedStartEndMinMaxLeavel1() {
+    return cy.get('td.MuiTableCell-body');
+  }
 
 }
 
