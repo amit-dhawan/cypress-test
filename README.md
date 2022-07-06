@@ -7,14 +7,16 @@ Cypress Tests assignment
 
 # Run Tests using below command
 - From cypress root directory run below command (to install all required packages for cypress test framework)
-npm install 
+* <code>npm install </code>
 
-- There are 2 spech files
+- There are 2 spec files inn cypress\e2e\tests directory:
     - activeTab-field-validations-tests.js
     - e2e-tests.js
 
-- Run  bellow command to run all the test  in  spec file 
-- command -> <code> npm run cy:run -- --spec "{relative_path_of_Spec_file}" </code>
-- To run a field validations spec file -->> <code>npm run cy:run -- --spec ".\cypress\e2e\tests\activeTab-field-validations-tests.js"</code>
+# Test Execution
+- To run all tests from all spec files in headless mode run <code>npm run cy:run</code>
+- To run all tests from all spec files in chromme browser mode run <code>npm run cy:run:chrome</code>
+
+
 
 

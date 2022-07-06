@@ -4,7 +4,7 @@ class SDETMainPage {
   // define page webElements
 
   getActiveTab() {
-    return cy.get('div[role="tablist"] button:nth-child(1)');
+    return cy.get('#simple-tab-0');
   }
 
   getFromField() {
@@ -58,11 +58,10 @@ class SDETMainPage {
     return cy.get('#mui-6');
   }
 
-  getActiveTab() {
+  getTomorrowTab() {
     return cy.get('#simple-tab-1');
   }
-
-
+  
   getAddedAsset1() {
     return cy.get('th.MuiTableCell-body');
   }

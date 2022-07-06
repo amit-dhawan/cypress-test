@@ -33,7 +33,8 @@ describe('E2E Test Suite', function () {
         const activePage = new SDETMainPage();
         const tomorrowPage = new TomorrowTab();
         // click on tomorrow tab
-        activePage.getActiveTab().click();
+        activePage.getTomorrowTab().click();
+        activePage.getTomorrowTab().should('have.attr', 'aria-selected', 'true');
         // user sleect drop down value
         // select option dropdown
         activePage.getSimpleDropDown().click();
@@ -49,7 +50,8 @@ describe('E2E Test Suite', function () {
         const activePage = new SDETMainPage();
         const tomorrowPage = new TomorrowTab();
         // click on tomorrow tab
-        activePage.getActiveTab().click();
+        activePage.getTomorrowTab().click();
+        activePage.getTomorrowTab().should('have.attr', 'aria-selected', 'true');
         // user sleect drop down value
         // select option dropdown
         activePage.getSimpleDropDown().click();
