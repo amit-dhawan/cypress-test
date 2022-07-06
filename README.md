@@ -5,11 +5,11 @@ Cypress Tests assignment
 - node v16.15.1 installed on machine
 - SDET Test app is up and running at - http://localhost:3000/
 
-# Run Tests using below command
-- From cypress root directory run below command (to install all required packages for cypress test framework)
+
+- From cypress-test root directory run below command (to install all required packages for cypress test framework)
 * <code>npm install </code>
 
-- There are 2 spec files inn cypress\e2e\tests directory:
+- The tests are present in 2 spec files in ->> cypress\e2e\tests directory
     - activeTab-field-validations-tests.js
     - e2e-tests.js
 
