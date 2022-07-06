@@ -4,7 +4,7 @@ class SDETMainPage {
   // define page webElements
 
   getActiveTab() {
-    return cy.contains('Active');
+    return cy.get('div[role="tablist"] button:nth-child(1)');
   }
 
   getFromField() {

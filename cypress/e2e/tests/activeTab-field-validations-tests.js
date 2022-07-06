@@ -17,7 +17,7 @@ describe('Test Suite for field validations', function () {
     it('Validate From field', function () {
         // create object of SDETMainPage to call get functions
         var mainPage = new SDETMainPage();
-        mainPage.getActiveTab().click();
+     
         // blank field check
         mainPage.getFromField().clear();
         mainPage.getOverrideBtn().click();
@@ -44,7 +44,7 @@ describe('Test Suite for field validations', function () {
     it('Validate To field', function () {
         // create object of SDETMainPage to call get functions
         var mainPage = new SDETMainPage();
-        mainPage.getActiveTab().click();
+     
         // enter valid From field
         mainPage.getFromField().type('1');
         // blank field check
@@ -75,7 +75,7 @@ describe('Test Suite for field validations', function () {
         // create object of SDETMainPage to call get functions
         var mainPage = new SDETMainPage();
         // navigate to active tab
-        mainPage.getActiveTab().click();
+      
         // validate initial value is '' blank
         mainPage.getSimpleDropDown().should('have.value', '');
 
